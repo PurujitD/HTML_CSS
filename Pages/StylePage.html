@@ -2,7 +2,12 @@
 <html>
     <head>
         <title>StyledPage</title>
-        <link rel="stylesheet" href="CSS/StylePage.css" />
+        <link rel="stylesheet" href="../CSS/StylePage.css" /> 
+        <style>
+                   #redid {color:red;} 
+                   .blueclass {color:blue;}
+                   li:nth-child(4) {color: chartreuse};
+        </style> 
     </head>
     <body>
         <div>
@@ -13,5 +18,11 @@
         </p>
         <img src="../Images/BlueDuck.jpg" alt="BlueDuck" />
         </div>
+        <ul>
+            <li class="blueclass">One</li>
+            <li>Two</li>
+            <li id=redid>Three</li>
+            <li>Four</li>
+        </ul>
     </body>
 </html>     
